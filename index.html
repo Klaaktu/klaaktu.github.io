@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Interactive IoU</title>
+        <!--modules defer by default-->
+      <script type="module" crossorigin src="/assets/index-DYMlbvYr.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-DQuvovdn.css">
+    </head>
+    <body>
+        <header>
+            <nav id="navbar" class="navbar">
+                <!-- Your navigation content here -->
+                <span>Application Name</span>
+            </nav>
+            <button class="hamburger">
+                <span class="bar"></span>
+            </button>
+        </header>
+        <nav class="mobile-nav">
+            <div id="shape-list">
+                <!-- Shape list will be rendered here -->
+            </div>
+        </nav>
+
+        <div class="vertical-toolbar">
+            <button id="toolbar-expand" title="toolbar-expand">
+                <img src="hand-icon.svg" alt="" />
+            </button>
+            <button id="panning" title="Hand">
+                <img src="hand-icon.svg" alt="" />
+            </button>
+            <button title="Arrow"><img src="arrow-icon.svg" alt="" /></button>
+            <button id="polygon-draw" title="Polygon">
+                <img src="polygon-icon.svg" alt="" />
+            </button>
+            <button id="delete-vertices" title="Delete">
+                <img src="delete-icon.svg" alt="" />
+            </button>
+            <!-- Add more buttons/icons -->
+        </div>
+
+        <canvas id="canvas" width="1200" height="800"></canvas>
+    </body>
+</html>
